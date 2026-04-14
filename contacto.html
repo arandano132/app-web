@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naturelESPAÑA</title><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+     <a href="index.html" style="margin: 10px;">
+        <button>Pagina principal</button>
+    </a>
+
+<h1>Nuestro contacto</h1>
+<p>nuestro mail es:
+    naturESPAÑA@gmail.com
+</p>
+<p>Nuestro teléfono es: +34 931 594 248
+    C/ Mossèn Jacint Verdaguer 1, El Masnou, Barcelona, España
+</p>
+
+widget de contacto:
+<div class="contact-widget">
+    <form action="mailto:naturESPAÑA@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+body {
+    background-color: #2e4a4f; /* Negro claro moderno */
+    color: #ededed; /* Texto casi blanco para buen contraste */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor centrado opcional */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Botones */
+button {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #383971;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a2a2a;
+}
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.comun{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.comun .card{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: rgb(16, 13, 13);
+    box-shadow: white 1px 0px 10px;
+    border-radius: 10px;
+}
+
+.comun .card img{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.raros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.raros .card{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: rgb(16, 13, 13);
+    box-shadow: white 1px 0px 10px;
+    border-radius: 10px;
+}
+
+.raros .card img{
+    max-width: 500px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.marquee{
+    width:100%;
+    overflow:hidden;
+    background:black;
+    color:white;
+    font: size 10px;
+    font-weight:bold;
+    text-align:end;
+}
+
+.marquee p{
+    padding-left:0%;
+    animation:mover 15s linear infinite;
+}
+
+@keyframes mover{
+    0%{transform:translateX(0);}
+    100%{transform:translateX(-100%);}
+}
+
+
+
